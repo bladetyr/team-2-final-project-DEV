@@ -1,0 +1,38 @@
+
+> react-typescript-starter@0.1.0 test
+> react-scripts test --coverage
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/components/CorkBoard.test.tsx
+  CorkBoard Component tests
+    ✓ CorkBoard displays a note (34 ms)
+    ✓ CorkBoard displays multiple notes (8 ms)
+
+------------------|---------|----------|---------|---------|-------------------
+File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------------|---------|----------|---------|---------|-------------------
+All files         |    3.65 |        0 |    6.89 |    3.79 |                   
+ src              |       0 |        0 |       0 |       0 |                   
+  App.tsx         |       0 |      100 |       0 |       0 | 7-39              
+  Board.tsx       |       0 |        0 |       0 |       0 | 7-36              
+  BoardSquare.tsx |       0 |        0 |       0 |       0 | 13-26             
+  Overlay.tsx     |       0 |      100 |       0 |       0 | 7-8               
+  Pic.tsx         |       0 |        0 |       0 |       0 | 5-13              
+  Square.tsx      |       0 |        0 |       0 |       0 | 7-11              
+  constants.ts    |       0 |      100 |     100 |       0 | 1                 
+  game.ts         |       0 |        0 |       0 |       0 | 1-26              
+ src/components   |    9.67 |      100 |   15.38 |   10.34 |                   
+  CorkBoard.tsx   |     100 |      100 |     100 |     100 |                   
+  MakeNote.tsx    |       0 |      100 |       0 |       0 | 7-103             
+  Note.tsx        |       0 |      100 |       0 |       0 | 15                
+ src/interfaces   |       0 |        0 |       0 |       0 |                   
+  noteData.ts     |       0 |        0 |       0 |       0 |                   
+  task.ts         |       0 |        0 |       0 |       0 |                   
+------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2.133 s
+Ran all test suites.
