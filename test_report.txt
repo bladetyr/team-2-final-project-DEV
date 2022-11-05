@@ -7,8 +7,8 @@ Browserslist: caniuse-lite is outdated. Please run:
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/components/CorkBoard.test.tsx
   CorkBoard Component tests
-    ✓ CorkBoard displays a note (34 ms)
-    ✓ CorkBoard displays multiple notes (8 ms)
+    ✓ CorkBoard displays a note (41 ms)
+    ✓ CorkBoard displays multiple notes (10 ms)
 
 ------------------|---------|----------|---------|---------|-------------------
 File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
@@ -34,5 +34,5 @@ All files         |    3.65 |        0 |    6.89 |    3.79 |
 Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        2.133 s
+Time:        2.572 s
 Ran all test suites.
