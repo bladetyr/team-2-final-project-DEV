@@ -291,9 +291,9 @@ FAIL src/components/CorkBoard.test.tsx
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |    1.33 |        0 |    1.72 |     1.4 |                   
+All files          |    1.35 |        0 |    1.75 |    1.42 |                   
  src               |    1.96 |        0 |       0 |       2 |                   
-  App.tsx          |       0 |      100 |       0 |       0 | 10-42             
+  App.tsx          |       0 |      100 |       0 |       0 | 9-41              
   Board.tsx        |       0 |        0 |       0 |       0 | 7-36              
   BoardSquare.tsx  |       0 |        0 |       0 |       0 | 13-26             
   Overlay.tsx      |       0 |      100 |       0 |       0 | 7-8               
@@ -301,13 +301,13 @@ All files          |    1.33 |        0 |    1.72 |     1.4 |
   Square.tsx       |       0 |        0 |       0 |       0 | 7-11              
   constants.ts     |     100 |      100 |     100 |     100 |                   
   game.ts          |       0 |        0 |       0 |       0 | 1-26              
- src/components    |    1.01 |        0 |    2.38 |    1.08 |                   
+ src/components    |    1.03 |        0 |    2.43 |    1.11 |                   
   Card.tsx         |       0 |      100 |       0 |       0 | 6-35              
   CardComp.tsx     |       0 |      100 |       0 |       0 | 8-13              
-  CardList.tsx     |       0 |        0 |       0 |       0 | 8-129             
+  CardList.tsx     |       0 |        0 |       0 |       0 | 9-119             
   CorkBoard.tsx    |    12.5 |      100 |      25 |    12.5 | 17-119            
   DeleteNote.tsx   |       0 |      100 |       0 |       0 | 7-22              
-  MakeNote.tsx     |       0 |      100 |       0 |       0 | 7-112             
+  MakeNote.tsx     |       0 |      100 |       0 |       0 | 22-128            
   Note.tsx         |       0 |      100 |       0 |       0 | 8-13              
   TrashCan.tsx     |       0 |      100 |       0 |       0 | 9-11              
  src/interfaces    |       0 |        0 |       0 |       0 |                   
@@ -318,5 +318,5 @@ All files          |    1.33 |        0 |    1.72 |     1.4 |
 Test Suites: 1 failed, 1 total
 Tests:       2 failed, 2 total
 Snapshots:   0 total
-Time:        2.584 s
+Time:        2.639 s
 Ran all test suites.
