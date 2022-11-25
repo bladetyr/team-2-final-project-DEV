@@ -49,7 +49,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at batchedUpdates$1 (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/react-dom/cjs/react-dom.development.js:22380:12)
         at act (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
         at render (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/@testing-library/react/dist/pure.js:97:26)
-        at Object.<anonymous> (/home/runner/work/team-2-final-project/team-2-final-project/src/components/CorkBoard.test.tsx:70:9)
+        at Object.<anonymous> (/home/runner/work/team-2-final-project/team-2-final-project/src/components/CorkBoard.test.tsx:74:9)
         at Promise.then.completed (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/jest-circus/build/utils.js:391:28)
         at new Promise (<anonymous>)
         at callAsyncCircusFn (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/jest-circus/build/utils.js:316:10)
@@ -138,7 +138,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at batchedUpdates$1 (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/react-dom/cjs/react-dom.development.js:22380:12)
         at act (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
         at render (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/@testing-library/react/dist/pure.js:97:26)
-        at Object.<anonymous> (/home/runner/work/team-2-final-project/team-2-final-project/src/components/CorkBoard.test.tsx:76:9)
+        at Object.<anonymous> (/home/runner/work/team-2-final-project/team-2-final-project/src/components/CorkBoard.test.tsx:80:9)
         at Promise.then.completed (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/jest-circus/build/utils.js:391:28)
         at new Promise (<anonymous>)
         at callAsyncCircusFn (/home/runner/work/team-2-final-project/team-2-final-project/node_modules/jest-circus/build/utils.js:316:10)
@@ -185,8 +185,8 @@ Browserslist: caniuse-lite is outdated. Please run:
 
 FAIL src/components/CorkBoard.test.tsx
   CorkBoard Component tests
-    ✕ CorkBoard displays a note (68 ms)
-    ✕ CorkBoard displays multiple notes (7 ms)
+    ✕ CorkBoard displays a note (67 ms)
+    ✕ CorkBoard displays multiple notes (9 ms)
 
   ● CorkBoard Component tests › CorkBoard displays a note
 
@@ -232,7 +232,7 @@ FAIL src/components/CorkBoard.test.tsx
       at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
       at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CorkBoard.test.tsx:70:9)
+      at Object.<anonymous> (src/components/CorkBoard.test.tsx:74:9)
       at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
       at runJest (node_modules/@jest/core/build/runJest.js:404:19)
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
@@ -282,7 +282,7 @@ FAIL src/components/CorkBoard.test.tsx
       at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
       at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
       at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/components/CorkBoard.test.tsx:76:9)
+      at Object.<anonymous> (src/components/CorkBoard.test.tsx:80:9)
       at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
       at runJest (node_modules/@jest/core/build/runJest.js:404:19)
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
@@ -291,9 +291,9 @@ FAIL src/components/CorkBoard.test.tsx
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |    1.08 |        0 |    1.42 |    1.12 |                   
+All files          |    1.03 |        0 |    1.38 |    1.07 |                   
  src               |    1.96 |        0 |       0 |       2 |                   
-  App.tsx          |       0 |      100 |       0 |       0 | 9-41              
+  App.tsx          |       0 |      100 |       0 |       0 | 9-43              
   Board.tsx        |       0 |        0 |       0 |       0 | 7-36              
   BoardSquare.tsx  |       0 |        0 |       0 |       0 | 13-26             
   Overlay.tsx      |       0 |      100 |       0 |       0 | 7-8               
@@ -301,14 +301,14 @@ All files          |    1.08 |        0 |    1.42 |    1.12 |
   Square.tsx       |       0 |        0 |       0 |       0 | 7-11              
   constants.ts     |     100 |      100 |     100 |     100 |                   
   game.ts          |       0 |        0 |       0 |       0 | 1-26              
- src/components    |    0.74 |        0 |    1.85 |    0.78 |                   
+ src/components    |    0.69 |        0 |    1.78 |    0.73 |                   
   Card.tsx         |       0 |      100 |       0 |       0 | 6-35              
-  CardComp.tsx     |       0 |      100 |       0 |       0 | 20-39             
-  CardList.tsx     |       0 |        0 |       0 |       0 | 9-109             
-  CorkBoard.tsx    |    12.5 |      100 |      25 |    12.5 | 17-119            
+  CardComp.tsx     |       0 |      100 |       0 |       0 | 20-41             
+  CardList.tsx     |       0 |        0 |       0 |       0 | 9-110             
+  CorkBoard.tsx    |    12.5 |      100 |      25 |    12.5 | 17-120            
   DeleteNote.tsx   |       0 |      100 |       0 |       0 | 7-22              
-  EditCard.tsx     |       0 |      100 |       0 |       0 | 20-141            
-  MakeNote.tsx     |       0 |      100 |       0 |       0 | 22-128            
+  EditCard.tsx     |       0 |      100 |       0 |       0 | 20-149            
+  MakeNote.tsx     |       0 |      100 |       0 |       0 | 13-126            
   Note.tsx         |       0 |      100 |       0 |       0 | 8-13              
   TrashCan.tsx     |       0 |      100 |       0 |       0 | 9-11              
  src/interfaces    |       0 |        0 |       0 |       0 |                   
@@ -320,5 +320,5 @@ All files          |    1.08 |        0 |    1.42 |    1.12 |
 Test Suites: 1 failed, 1 total
 Tests:       2 failed, 2 total
 Snapshots:   0 total
-Time:        2.772 s
+Time:        2.785 s
 Ran all test suites.
