@@ -5,6 +5,8 @@ import { CorkBoard } from "./components/CorkBoard";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { DeleteNote } from "./components/DeleteNote";
+import { TrashCan } from "./components/TrashCan";
+import { cardData } from "./interfaces/cardData";
 
 const sampleCorkBoard = [
     {
@@ -64,6 +66,10 @@ function App(): JSX.Element {
                             startingNotesAndPositionInfo={sampleCorkBoard}
                         ></CorkBoard>
                         <DeleteNote></DeleteNote>
+                        <TrashCan
+                            id={cardData.id}
+                            deleteCard={cardData.id}
+                        ></TrashCan>
                     </div>
                 </div>
             </DndProvider>
