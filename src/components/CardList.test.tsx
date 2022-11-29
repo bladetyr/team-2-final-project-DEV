@@ -37,12 +37,4 @@ describe("CardList Component tests", () => {
         render(<CardList></CardList>);
         expect(<CardList></CardList>).toBeInTheDocument;
     });
-    test("CardList Sorts Cards", () => {
-        //I want to call a sorting function here
-        //and use it on my test list
-        const sortColorButton = screen.getByRole("button", {
-            name: "Sort by Color"
-        });
-        sortColorButton.click();
-    });
 });

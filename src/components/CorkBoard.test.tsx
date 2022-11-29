@@ -1,6 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { CorkBoard } from "./CorkBoard";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import { DndProvider } from "react-dnd";
 
 const testNote = [
     {
@@ -70,15 +72,33 @@ const testNotes = [
 ];
 
 describe("CorkBoard Component tests", () => {
+    test("CorkBoard exists", () => {
+        render(
+            <DndProvider backend={HTML5Backend}>
+                <CorkBoard startingNotesAndPositionInfo={testNote}></CorkBoard>
+            </DndProvider>
+        );
+        expect(
+            <DndProvider backend={HTML5Backend}>
+                <CorkBoard startingNotesAndPositionInfo={testNote}></CorkBoard>
+            </DndProvider>
+        ).toBeInTheDocument();
+    });
     test("CorkBoard displays a note", () => {
-        render(<CorkBoard startingNotesAndPositionInfo={testNote}></CorkBoard>);
+        render(
+            <DndProvider backend={HTML5Backend}>
+                <CorkBoard startingNotesAndPositionInfo={testNote}></CorkBoard>
+            </DndProvider>
+        );
 
         const firstNote = screen.getByText("Complete CISC 275 Project");
         expect(firstNote).toBeInTheDocument();
     });
     test("CorkBoard displays multiple notes", () => {
         render(
-            <CorkBoard startingNotesAndPositionInfo={testNotes}></CorkBoard>
+            <DndProvider backend={HTML5Backend}>
+                <CorkBoard startingNotesAndPositionInfo={testNotes}></CorkBoard>
+            </DndProvider>
         );
         const firstNote = screen.getByText("Complete CISC 275 Project");
         expect(firstNote).toBeInTheDocument();
